@@ -46,6 +46,17 @@ public class MainApp {
 			//System.out.println(fancyFriday + " " +sunny + " " + raining);
 			
 		// Use if statement to decide what to wear
+			if(fancyFriday){
+				if(sunny){
+					System.out.println("tea gown");
+				} else if(raining){
+					System.out.println("power suit");
+				} else {
+					System.out.println("long gown");
+				}
+			} else {
+				System.out.println("tshirt and jeans");
+			}
 
 	}
 
